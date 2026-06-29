@@ -19,4 +19,6 @@ print("Subscribe to {}".format(youtuber))
 #In this {} is a blank space which will be filled by the value of youtuber wtv it is by using (.format(youtuber))
 
 3 f-string method
-print()
+print(f"subscribe to {youtuber}")
+the f in this tells python:
+anything inside {} is python code. evaluate it and then run it
