@@ -1,4 +1,6 @@
-print("Leave Application Generator")
+print("=" * 40)
+print("     LEAVE APPLICATION GENERATOR")
+print("=" * 40)
 print("1. School Student")
 print("2. College Student")
 print("3. Working Individual")

@@ -22,3 +22,15 @@ print("Subscribe to {}".format(youtuber))
 print(f"subscribe to {youtuber}")
 the f in this tells python:
 anything inside {} is python code. evaluate it and then run it
+
+
+
+the whole program is written in f-string method ..... and Also given user the choice
+by adding
+print("1. School Student")
+print("2. College Student")
+print("3. Working Individual")
+
+choice = input("Enter your choice (1/2/3): ")
+with if,elif,else conditions 
+so user can choose wtv he needs
