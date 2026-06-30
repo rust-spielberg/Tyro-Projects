@@ -7,6 +7,11 @@ print("3. Working Individual")
 
 choice = input("Enter your choice (1/2/3): ")
 
+
+
+
+
+
 if choice == "1":
     SchoolName = input("School name : ")
     Name = input("Name : ")
@@ -37,7 +42,9 @@ Thank you.
 Yours sincerely, 
 {Name} 
 {Mobileno}"""
-
+    print("=" * 60)
+    print("             LEAVE APPLICATION")
+    print("=" * 60)
     print(format1)
 
 elif choice == "2":
@@ -70,7 +77,9 @@ Thank you for your consideration.
 Yours faithfully,
 {Name}
 {RollNumber}"""
-
+    print("=" * 60)
+    print("             LEAVE APPLICATION")
+    print("=" * 60)
     print(format2)
 
 elif choice == "3":
@@ -106,6 +115,9 @@ Sincerely,
 {EmployeeName}
 {EmployeeID}
 """
+    print("=" * 60)
+    print("             LEAVE APPLICATION")
+    print("=" * 60)
     print(format3)
 
 else:
