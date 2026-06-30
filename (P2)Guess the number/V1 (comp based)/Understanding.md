@@ -21,4 +21,12 @@ def guess(x):
 
 num(100)
 
-here 
+here we defined a variable named "num" which has initial starting value of 0 ... after that we have a loop which will stops when the num = rnd_num
+I've also given it some conditions to give user hint about the number he selected is way too far or is close to the original number 
+
+
+import pyfiglet
+print(pyfiglet.figlet_format("Congratulations!!"))
+
+we first installed this lib for great font visual ..... so when the user gets the correct number it prints congratulations in a special style
+
