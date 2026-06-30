@@ -31,3 +31,45 @@ A simple Python number guessing game where the computer randomly selects a numbe
 ### Correct Guess
 
 When the player guesses the correct number, a congratulatory ASCII-art banner is displayed.
+## 🛠 Requirements
+
+* Python 3.x
+* PyFiglet
+
+Install PyFiglet using:
+
+```bash
+pip install pyfiglet
+```
+
+## ▶️ Running the Game
+
+```bash
+python guessing_game.py
+```
+
+The game starts with a random number between **1 and 50**.
+
+## 📚 Concepts Used
+
+* Functions
+* Loops (`while`)
+* Conditional Statements (`if`, `elif`, `else`)
+* User Input
+* Random Number Generation
+* Absolute Difference Calculation
+* Third-Party Python Libraries
+
+## 🎓 Learning Outcome
+
+This project is great for beginners who want to practice:
+
+* Python syntax
+* Problem-solving
+* User interaction
+* Loop control
+* Decision making with nested conditions
+
+## 📄 License
+
+This project is free to use for learning and educational purposes.
