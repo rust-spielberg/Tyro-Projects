@@ -13,9 +13,12 @@ Now to make our comp give us hints we gonna' need a loop with some if, elif stat
 def guess(x):
     rnd_num = random.randint(a,b)
     num = 0
-    while x != rnd_num :
-        num = int(input("Guess the number between 1 to {x}))
-
+    while num != rnd_num:
+        num = int(input(f"Guess the number b/w 1 to {x}: "))
+        diff = abs(rnd_num - num)
+        if num < rnd_num :
 
 
 num(100)
+
+here 
